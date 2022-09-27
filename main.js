@@ -1,5 +1,5 @@
 // taking input data 
-document.querySelector(".js-search").addEventListener('click',function(e){
+document.querySelector(".js-search").addEventListener('click',function(){
     var input=document.querySelector("input").value;
     callajax(makeurl(input));
     
